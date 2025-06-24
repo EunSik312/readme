@@ -44,9 +44,48 @@
 ![create_repository](https://github.com/user-attachments/assets/8c2eb16b-8dfc-465a-88cd-d35770d12df0)
   
 ## Markdown 문법
-![image](https://github.com/user-attachments/assets/5b01c547-5501-42ad-8c37-ae3fdfee33fb)
+# 제목
+# 제목 1
+## 제목 2
+### 제목 3
+#### 제목 4
 
-(여기에 마크다운 내용 작성)
+# 강조
+*기울임* 또는 _기울임_  
+**굵게** 또는 __굵게__  
+***굵고 기울임***  
+
+# 목록
+- 항목 1
+- 항목 2
+  - 하위 항목
+* 또는 * 도 사용 가능
+
+# 순서 있는 목록
+1. 첫 번째
+2. 두 번째
+3. 세 번째
+# 링크 메세지
+[텍스트](https://example.com)
+# 이미지
+![대체 텍스트](https://example.com/image.png)
+# 코드
+`코드`
+# 여러 코드
+```언어
+여러 줄의 코드
+# 수평선
+---
+또는
+***
+# 인용문
+> 인용문입니다.
+>> 중첩 인용도 가능
+# 체크리스트
+- [ ] 할 일 1
+- [x] 완료한 일
+
+
 
 ## Colab 기초  
 ![image](https://github.com/user-attachments/assets/6889f83e-4e58-44dc-acd9-b655ee17aa38)
