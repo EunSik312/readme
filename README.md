@@ -118,7 +118,7 @@ Shift + Enter 또는 왼쪽 실행 버튼 클릭
 python
 복사
 편집
-# Hello World 출력
+Hello World 출력
 print("Hello, Colab!")
 📌 텍스트 셀 Markdown 예시
 markdown
@@ -135,10 +135,10 @@ python
 편집
 from google.colab import files
 
-# 파일 업로드
+파일 업로드
 uploaded = files.upload()
 
-# 파일 다운로드
+파일 다운로드
 files.download("example.txt")
 ✅ 라이브러리 설치
 python
