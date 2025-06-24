@@ -89,7 +89,69 @@
 
 ## Colab 기초  
 ![image](https://github.com/user-attachments/assets/6889f83e-4e58-44dc-acd9-b655ee17aa38)
+![image](https://github.com/user-attachments/assets/928bc75e-f1f1-4a98-9e62-b567b2bba193)
+✅ 코랩 기본 개념
+항목	설명
+실행 환경	웹 기반 파이썬 실행기 (Google 서버에서 실행됨)
+파일 확장자	.ipynb (Jupyter Notebook 파일)
+저장	Google Drive에 자동 저장 가능
+장점	파이썬 설치 불필요, GPU/TPU 무료 지원
 
+✅ 코랩 시작하기
+https://colab.research.google.com 접속
+
+새 노트북 만들기: 파일 → 새 노트북
+
+코드 입력하고 실행:
+
+셀에 파이썬 코드 입력
+
+Shift + Enter 또는 왼쪽 실행 버튼 클릭
+
+✅ 기본 사용법
+📌 코드 셀 vs 텍스트 셀
+코드 셀: 파이썬 코드 실행
+
+텍스트 셀: Markdown 형식으로 설명, 수식 등 작성 가능
+
+📌 코드 예시
+python
+복사
+편집
+# Hello World 출력
+print("Hello, Colab!")
+📌 텍스트 셀 Markdown 예시
+markdown
+복사
+편집
+# 제목
+## 부제목
+**굵게**, *기울임*, `코드`
+
+수식: $y = mx + b$
+✅ 파일 다루기
+python
+복사
+편집
+from google.colab import files
+
+# 파일 업로드
+uploaded = files.upload()
+
+# 파일 다운로드
+files.download("example.txt")
+✅ 라이브러리 설치
+python
+복사
+편집
+!pip install pandas
+import pandas as pd
+!는 셸 명령어 실행을 의미합니다.
+
+✅ GPU 사용 설정
+런타임 → 런타임 유형 변경
+
+하드웨어 가속기: GPU 또는 TPU 선택
 (여기에 Colab 내용 작성)
 
 ## 2. About Python3
