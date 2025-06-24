@@ -48,6 +48,8 @@
 (여기에 마크다운 내용 작성)
 
 ## Colab 기초  
+![image](https://github.com/user-attachments/assets/6889f83e-4e58-44dc-acd9-b655ee17aa38)
+
 (여기에 Colab 내용 작성)
 
 ## 2. About Python3
