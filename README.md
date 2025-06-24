@@ -156,6 +156,7 @@ import pandas as pd
 
 ## 2. About Python3
 - [Python basic](./docs/python3.md)
+- https://www.w3schools.com
 
 ## 3.  data structure / data sciencs
 
